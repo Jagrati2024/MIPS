@@ -1,1 +1,3 @@
-A implementation of a 32-bit single cycle MIPS processor in Verilog. This version of the MIPS single-cycle processor can execute the following instructions: add, sub, and, or, slt, lw, sw, beq, jal, and j.
+A implementation of a 32-bit single cycle MIPS processor in Verilog. This version of the MIPS single-cycle processor can execute the following instructions : add, sub, and, or , slt , lw , sw , beq , jal, and j.
+A testbench is included to simulate and verify the functionality of the processor. It provides example MIPS instructions and checks the correctness of operations, including register updates, memory reads/writes, and branching behavior.
+Screenshot(s) of the simulation waveform are included to illustrate correct operation of various instructions. These help visualize how the processor executes each instruction cycle by cycle.
